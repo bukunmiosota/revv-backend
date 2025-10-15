@@ -1,0 +1,21 @@
+{
+  "name": "revv-backend",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "nodemon --watch src --exec ts-node src/index.ts",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.28.0",
+    "@prisma/client": "^5.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.2",
+    "nodemon": "^3.1.0",
+    "prisma": "^5.7.0"
+  }
+}
