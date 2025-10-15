@@ -1,1 +1,0 @@
-export async function shopRoutes(app) { app.get('/', async () => ([{ id: 1, name: 'Demo Shop' }])); }

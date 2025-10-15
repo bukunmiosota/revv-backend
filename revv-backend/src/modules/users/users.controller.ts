@@ -1,1 +1,0 @@
-export async function userRoutes(app) { app.get('/', async () => ([{ id: 1, name: 'Demo User' }])); }

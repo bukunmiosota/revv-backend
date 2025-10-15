@@ -1,1 +1,0 @@
-export async function authRoutes(app) { app.post('/login', async () => ({ token: 'demo' })); }
