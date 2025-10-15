@@ -1,0 +1,1 @@
+export async function jobRoutes(app) { app.get('/', async () => ([{ id: 1, name: 'Demo Job' }])); }
